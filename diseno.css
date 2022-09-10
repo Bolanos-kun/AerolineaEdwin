@@ -1,0 +1,78 @@
+body{
+    background-color:azure;
+ }
+
+.logos{
+  border-radius: 15px;
+  border-color: #000263 ;
+}
+
+h1{
+    color:#ffffff;
+    font: 40px maiandra gd;
+    background-color:#0066ff;
+    padding: 10px;
+    width: 85%;
+  }
+
+  .derechos{
+    color: azure;
+    text-align: center;
+    background-color:#0066ff;
+  }
+
+  .cuenta{
+    width: 50px;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  #header{
+    position: right;
+    margin: auto;
+    width: 100%;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    .nav li a{
+        background-color: #0066ff;
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 5px;
+        display: block;
+        border-radius: 1px;
+        transition: all .3s;
+    }
+    
+    .nav li a:hover{
+    background-color:#000263;
+    transition: all .5s;
+    }
+    
+    .nav>li{float: left;}
+    
+    .nav li ul{
+        display: none;
+        position: absolute;
+        min-width: 140px;
+    }
+    
+    .nav li:hover>ul{
+        display: block;
+    }
+    
+    .nav li ul li{
+        position: relative;
+    }
+    
+    .nav li ul li {
+        right:50px;
+        top:0px;
+    }
+
+    .formulario{
+      text-align: right;
+    }
